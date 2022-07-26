@@ -1,0 +1,29 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+	
+	public static void main(String[] args) {
+		
+		byte anosdeEmpresa = 23;
+		short numerodeVoos = 542;
+		int id = 56789;
+		long pontosAcumulados = 2_123_845_223L;
+		
+		float salario = 11_445.44F;
+		double vendasAcumuladas = 2_991_797_103.01;
+		
+		boolean estadeFereias = false;
+				
+		char status = 'A';
+		
+		System.out.println(anosdeEmpresa * 365);
+		System.out.println(numerodeVoos / 2);
+		System.out.println(numerodeVoos / 2);
+		System.out.println(pontosAcumulados / vendasAcumuladas);
+		
+		System.out.println(id + ":ganha -> "+ salario);
+		System.out.println("Ferias? " + estadeFereias);
+		System.out.println("Status: " + status);
+	}
+
+}
